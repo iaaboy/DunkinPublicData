@@ -39,7 +39,7 @@ public class PublicApiSample extends AsyncTask {
         protected void onPreExecute() {
             super.onPreExecute();
             String ServiceUrl = "http://openapi.tago.go.kr/openapi/service"; //탐색하고 싶은 URL이다.
-            String strKeys = "C7t7NfFEiclzRSgCF9Sqq8%2BRdFH7NvUGpcxCbQ9emajjCrYnWwOE896nHsjBkmDqmus5f%2BUzEEKrHovuVqrruQ%3D%3D";
+            String strKeys = "???";
             String services = "ArvlInfoInqireService";
             String code = "getCtyCodeList";
             strUrl = ServiceUrl + "/" + services + "/" + code + "?" + "serviceKey=" + strKeys;
