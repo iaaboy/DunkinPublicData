@@ -32,8 +32,8 @@ import java.net.URL;
 
 public class PublicApiSample extends AsyncTask {
 
-    static final HttpTransport HTTP_TRANSPORT = new NetHttpTransport();
-    static final JsonFactory JSON_FACTORY = new JacksonFactory();
+//    static final HttpTransport HTTP_TRANSPORT = new NetHttpTransport();
+//    static final JsonFactory JSON_FACTORY = new JacksonFactory();
     String strUrl, result;
     URL Url;
         protected void onPreExecute() {
